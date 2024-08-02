@@ -6,12 +6,12 @@
 from os import path, getenv
 
 class Config:
-    API_ID = int(getenv("API_ID", "7603127"))
-    API_HASH = getenv("API_HASH", "dabc1b33b9775b0588dbcefb392494a3")
-    BOT_TOKEN = getenv("BOT_TOKEN", "7361150917:AAF5lJIbVCm0gmmQOlNZqywfsf95k0VOdNA")
-    FSUB = getenv("FSUB", "Uhinchaledhu_kadu_movie")
-    CHID = int(getenv("CHID", "-1001215991675"))
-    SUDO = list(map(int, getenv("SUDO", "1716143177").split()))
+    API_ID = int(getenv("API_ID", "22620068"))
+    API_HASH = getenv("API_HASH", "11e2c113078324f7e36688baa86c3911")
+    BOT_TOKEN = getenv("BOT_TOKEN", "7025776766:AAGB2MX1-TCinP1okw-aJAgALwZh9pmPZdU")
+    FSUB = getenv("FSUB", "zoyamoviesbotupdate")
+    CHID = int(getenv("CHID", "-1002050604893"))
+    SUDO = list(map(int, getenv("SUDO", "6062527012").split()))
     MONGO_URI = getenv("MONGO_URI", "mongodb+srv://afrozsarwat06:7g9auJm2dIUTk35G@cluster0.pl5lbwl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     
 cfg = Config()
