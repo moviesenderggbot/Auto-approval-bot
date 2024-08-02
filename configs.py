@@ -12,7 +12,7 @@ class Config:
     FSUB = getenv("FSUB", "zoyamoviesbotupdate")
     CHID = int(getenv("CHID", "-1002050604893"))
     SUDO = list(map(int, getenv("SUDO", "6062527012").split()))
-    MONGO_URI = getenv("MONGO_URI", "mongodb+srv://afrozsarwat06:7g9auJm2dIUTk35G@cluster0.pl5lbwl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    MONGO_URI = getenv("MONGO_URI", "mongodb+srv://0qxwx42ukf:oxfFP9wSRVYt7awV@cluster0.abjqxfe.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     
 cfg = Config()
 
